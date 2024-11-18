@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+    <!-- Esenciales / Basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christian Peraza.</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/ico" sizes="48x48" href="resources/images/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+<body id="top">
+    <!-- Preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="line"></div>
+    </div>
+
+    <!-- Page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <!-- Header 
+        ================================================== -->
+        <header id="masthead" class="s-header">
+
+            <div class="s-header__block">
+                <div class="s-header__branding">
+                    <p class="site-title">
+                        <a href="index.html" rel="home">Christian Peraza.</a>
+                    </p>
+                </div>
+
+                <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+            </div> <!-- End s-header__block -->
+
+            <div class="row s-header__nav-wrap">
+
+                <nav class="s-header__nav">
+                    <ul>
+                        <li class="current"><a href="#intro" class="smoothscroll">Inicio</a></li>
+                        <li><a href="#about" class="smoothscroll">Sobre Mí</a></li>
+                        <li><a href="#works" class="smoothscroll">Trabajos</a></li>
+                        <li><a href="#colophon" class="smoothscroll">Contacto</a></li>
+                    </ul>
+                </nav> <!-- End s-header__nav -->
+
+                <ul class="s-header__social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/christian-peraza-cuenca-bb3956213/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 30 30"
+                                style="fill:rgba(0, 0, 0, 1); transform: -ms-filter">
+                                <path
+                                    d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z">
+                                </path>
+                            </svg>
+                            <span class="u-screen-reader-text">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ChristianPC22" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: rgba(0, 0, 0, 1); transform: -ms-filter">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                                </path>
+                            </svg>
+                            <span class="u-screen-reader-text">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:christianperaza22@gmail.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32"
+                                style="fill: rgba(0, 0, 0, 1); transform: -ms-filter">
+                                <path
+                                    d="M29 4H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h26a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-.72 2L16 14.77 3.72 6zM30 25a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.23l13.42 9.58a1 1 0 0 0 1.16 0L30 7.23z" />
+                            </svg>
+                            <span class="u-screen-reader-text">Email</span>
+                        </a>
+                    </li>
+                </ul> <!-- End s-header__social -->
+            </div> <!-- End s-header__nav-wrap -->
+        </header> <!-- End s-header -->
+
+        <!-- intro
+        ================================================== -->
+        <section id="intro" class="s-intro">
+            <div class="row">
+                <div class="column lg-12 s-intro__content">
+
+                    <div class="s-intro__text">
+                        <h1 class="s-intro__text-huge animate-on-load">
+                            Christian
+                        </h1>
+                        <h3 class="animate-on-load">Desarrollador de Software Junior.</h3>
+                    </div>
+
+                    <div class="s-intro__bg"></div>
+
+                </div>
+            </div>
+        </section> <!-- End s-intro -->
+
+        <!-- Sobre Mí / About
+        ================================================== -->
+        <section id="about" class="s-about">
+            <div class="s-about__block s-about__intro">
+                <div class="row">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle animate-on-load">Sobre Mí</h2>
+
+                        <p class="attention-getter animate-on-load">
+                            ¡Buenas! Muchas gracias por visitar mi portfolio.<br><br>
+
+                            Soy Christian, un Desarrollador de Software Junior apasionado. <br>
+
+                            Actualmente estoy <b><u>buscando trabajo</u></b> como <i>Desarrollador de Software Junior</i> (FrontEnd
+                            y/o BackEnd), a la par que desarrollo aplicaciones personales y afianzo mis habilidades
+                            para las herramientas y tecnologías que ya conozco. <br><br>
+
+                            Me encanta aprender y afianzar mis conocimientos constantemente, especialmente en
+                            tecnologías frontend como TypeScript, Vue y Astro.💻<br><br>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- End s-about__intro -->
+
+            <div class="s-about__block s-about__career">
+
+                <div class="row s-about__career-header">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">Experiencia</h2>
+
+                        <p class="text-huge-title">
+                            Experiencia laboral, educación y habilidades que poseo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row s-about__timeline" data-animate-block>
+                    <div class="column lg-6 stack-on-900 s-about__timeline-section" data-animate-el>
+
+                        <h2 class="text-subtitle">
+                            Experiencia
+                        </h2>
+
+                        <div class="timeline">
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">MAC L.T.D <br>(The National Microelectronics
+                                        Applications Centre)<br></h3>
+                                        <h5 class="timeline__meta">Front-End Developer - <i>Limerick, Irlanda</i></h5>
+                                        <p class="timeline__timeframe">Febrero 2024 - Septiembre 2024</p>
+                                        <p class="timeline__timeframe"></p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        - Development of the mobile app "iDEM Mobile", an app that is a comprehensive
+                                        digital accessibility solution for individuals with language and reading
+                                        difficulties.<br>
+
+                                        Designed for a diverse range of users, including people with dyslexia, learning
+                                        disabilities, limited language skills, low literacy, older adults, and
+                                        immigrants.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">CGI</h4>
+                                    <h5 class="timeline__meta">Helpdesk Technician</h5>
+                                    <p class="timeline__timeframe">March 2022 - Julio 2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        Contrato de prácticas como Helpdesk Technician en el proyecto que tiene CGI
+                                        desplazado con Línea Directa Aseguradora.<br><br>
+
+                                        Dentro de mis responsabilidades incluían atender solicitudes de reportes y
+                                        coordinar el escalado de incidencias complejas, resolver problemas técnicos, ya
+                                        sean físicos o en remoto, y a la vez brindando una atención al cliente
+                                        profesional, sobretodo garantizando un soporte eficiente al usuario, e incluso
+                                        en situaciones de alta presión.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- End timeline -->
+                    </div> <!-- End s-about__timeline-section -->
+
+                    <div class="column lg-6 stack-on-900 s-about__timeline-section" data-animate-el>
+                        <h2 class="text-subtitle">
+                            Educación
+                        </h2>
+
+                        <div class="timeline">
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">IES Ciudad Escolar</h3>
+                                        <h5 class="timeline__meta">Formación Profesional de Grado Superior, Desarrollo
+                                            de aplicaciones Web</h5>
+                                        <p class="timeline__timeframe">2022 - 2024</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+                                        cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident
+                                        cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet
+                                        est occaecat nisi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">IES José Luis Sampedro</h4>
+                                    <h5 class="timeline__meta">Formación Profesional de Grado Medio, Sistemas
+                                        Microinformáticos y Redes</h5>
+                                    <p class="timeline__timeframe">2020 - 2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>
+                                        Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+                                        cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident
+                                        cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet
+                                        est occaecat nisi.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> <!-- End timeline -->
+                    </div> <!-- End s-about__timeline-section -->
+                </div> <!-- End about__timeline -->
+
+                <div class="row s-about__skills" data-animate-block>
+                    <div class="column lg-12" data-animate-el>
+                        <h2 class="text-subtitle">
+                            Habilidades y Aptitudes
+                        </h2>
+
+                        <ul class="skill-bars">
+                            <li>
+                                <div class="progress percent75"></div>
+                                <strong>React Native</strong>
+                            </li>
+                            <li>
+                                <div class="progress percent50"></div>
+                                <strong>PHP</strong>
+                            </li>
+                            <li>
+                                <div class="progress percent60"></div>
+                                <strong>JavaScript ES6+</strong>
+                            </li>
+                            <li>
+                                <div class="progress percent55"></div>
+                                <strong>Java</strong>
+                            </li>
+                            <li>
+                                <div class="progress percent60"></div>
+                                <strong>TypeScript</strong>
+                            </li>
+                            <li>
+                                <div class="progress percent45"></div>
+                                <strong>Node.js</strong>
+                            </li>
+                            <li>
+                                <div class="progress percent95"></div>
+                                <strong>HTML5 y CSS3</strong>
+                            </li>
+                            <li>
+                                <div class="progress percent50"></div>
+                                <strong>Figma</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- End s-about__skills -->
+            </div> <!-- End s-about__career -->
+        </section> <!-- End s-about -->
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <h2 class="text-pretitle">Proyectos</h2>
+
+                    <p class="text-huge-title">
+                        Proyectos en los que he trabajado.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row folio-list block-lg-one-half block-stack-on-550" data-animate-block>
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="resources/images/portfolio/gallery/g-idem-mobile.png"
+                                Title="Idem Mobile" data-size="1050x700">
+                                <img srcset="resources/images/portfolio/idem-mobile.png 1x" alt="Foto App Idem Mobile">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Laboral</span>
+                                <a href="https://idemproject.eu/" title="Idem Mobile" class="project-link">Web Idem</a>
+                            </div>
+                            <h4 class="folio-item__title">iDEM Mobile</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>
+                                Proyecto para la Unión Europea y financiado por la misma, solución de accesibilidad
+                                digital mediante una aplicación móvil, enfocado a individuos con problemas de lectura y
+                                lenguaje. <br>
+                                Esta app ayuda a las personas con dificultades para entender documentos oficiales y/o gubernamentales, permitiendoles simplificar los textos o documentos al gusto.<br><br>
+                                Desarrollado con React Native, Expo, TypeScript y JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!-- End column -->
+
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="resources/images/portfolio/gallery/g-wip.png"
+                                title="WIP" data-size="1050x700">
+                                <img    srcset="resources/images/portfolio/wip.png 1x" alt="Foto Proyecto Work in Progress">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Personal</span>
+                                <!-- <a href="" title="Web en Proceso" class="project-link">Enlace</a> -->
+                            </div>
+                            <h4 class="folio-item__title">Nueva web en proceso...</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>Actualmente estoy desarrollando con Vue y Nuxt.js una web basada en una idea que tuve a una necesidad personal, pronto publicaré más noticias.</p>
+                        </div>
+                    </div>
+                </div> <!-- End column -->
+            </div> <!-- End folio-list -->
+        </section>
+
+        <!-- # Pie de página / Site footer
+        ================================================== -->
+        <footer id="colophon" class="s-footer">
+            <div class="row s-footer__contact-header">
+                <div class="column lg-12">
+                    <h2 class="text-pretitle">Contacto</h2>
+
+                    <p class="text-huge-title">
+                        Siéntete libre de contactar conmigo para cualquier oferta laboral o proyecto en mente.
+                    </p>
+                </div>
+            </div> <!-- Final s-footer__content / End s-footer__content -->
+
+            <div class="row s-footer__contact-content">
+                <div class="column lg-5 md-6 stack-on-900 left-block">
+                    <p>
+                        Si tienes una oferta laboral que pueda encajar con mis habilidades, un proyecto interesante en
+                        mente, o simplemente quieres contactarme para otra consulta, mi correo está abierto y disponible
+                        en el botón de abajo.
+
+                    <div class="s-footer__buttons">
+                        <a href="mailto:christianperaza22@gmail.com" class="btn btn--primary u-fullwidth">¡Dime
+                            Hola!</a>
+                        <a href="resources/CV - Christian Peraza Cuenca.pdf" download
+                            class="btn btn--stroke u-fullwidth">Mi CV.</a>
+                    </div>
+
+                    </p>
+                </div>
+
+                <div class="column lg-4 md-5 stack-on-900 right-block">
+                    <div class="s-footer__contact-info">
+                        <h2 class="text-subtitle">
+                            Contacto
+                        </h2>
+                        <ul class="link-list">
+                            <li><a href="mailto:christianperaza22@gmail.com"
+                                    target="_blank">christianperaza22@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="s-footer__social">
+                        <h2 class="text-subtitle">
+                            Socials
+                        </h2>
+                        <ul class="link-list">
+                            <li><a href="https://www.linkedin.com/in/christian-peraza-cuenca-bb3956213/"
+                                    target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/ChristianPC22" target="_blank">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- Final s-footer__contact-content / End s-footer__contact-content -->
+
+            <div class="row s-footer__bottom">
+                <div class="column ss-copyright">
+                    <span>© Christian Peraza 2024.</span>
+                    <span><a href="https://www.styleshout.com/">Todos los derechos reservados.</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            style="fill: rgba(0, 0, 0, 1);transform: -ms-filter;">
+                            <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div> <!-- Final s-footer / End s-footer__bottom-->
+        </footer> <!-- Final s-footer / End s-footer -->
+    </div> <!-- Final s-pagewrap / End s-pagewrap -->
+
+    <!-- Fondo photoswipe / photoswipe background
+    ================================================== -->
+    <div class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Final fondo photoSwipe / End photoSwipe background -->
+
+    <!-- JavaScript
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
