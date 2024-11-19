@@ -3223,7 +3223,7 @@ img.u-pull-left {
     aspect-ratio: 9/ 10 ;
     width: 100%;
     background-color: var(--color-gray-4);
-    background-image: url(/resources/images/intro-bg.jpg);
+    background-image: url(/resources/images/intro-bg.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
