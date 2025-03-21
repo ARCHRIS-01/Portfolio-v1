@@ -1,5 +1,4 @@
-- My own Portfolio.
-- Built in the old but classic way trio, HTML-CSS-JavaScript, also tweaked a bit here and there with Anime.js.   
+- Self's Portfolio. Crafted with the timeless trio, HTML-CSS-JavaScript, enhanced with Anime.js for that extra touch of finesse.   
 
 - Desktop:
 ![desktop](https://github.com/user-attachments/assets/f0de9307-2e7e-4d66-9838-78a2be7263d4)
