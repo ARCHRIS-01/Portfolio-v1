@@ -1,5 +1,5 @@
-- Portfolio de Desarrollador de Software de Christian Peraza Cuenca.
-- Desarrollado con: HTML♦️, CSS + Tailwind🔷 y JavaScript (Vanilla, PrismJS, AnimeJS)🟡
+- My own Portfolio.
+- Built in the old but classic way trio, HTML-CSS-JavaScript, also tweaked a bit here and there with Anime.js.   
 
 - Desktop:
 ![desktop](https://github.com/user-attachments/assets/f0de9307-2e7e-4d66-9838-78a2be7263d4)
