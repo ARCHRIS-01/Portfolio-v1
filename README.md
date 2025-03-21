@@ -1,4 +1,4 @@
-- Self's Portfolio. Crafted with the timeless trio, HTML-CSS-JavaScript, enhanced with Anime.js for that extra touch of finesse.   
+- Self's Portfolio. Crafted with the timeless trio, HTML-CSS-JavaScript, enhanced with Anime.js for extra finesse.   
 
 - Desktop:
 ![desktop](https://github.com/user-attachments/assets/f0de9307-2e7e-4d66-9838-78a2be7263d4)
